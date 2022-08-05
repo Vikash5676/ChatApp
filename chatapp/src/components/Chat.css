@@ -1,0 +1,90 @@
+.chat-page{
+    background-color: rgb(19, 18, 18);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-container{
+    height: 60%;
+    width: 40%;
+   align-items: center;
+   background-color: white;
+   
+}
+
+.header{
+    height: 15%;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.chat-box{
+    height: 70%;
+    width: 100%;
+    
+}
+
+.input-box{
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+
+.input-box input{
+    width: 80%;
+    height: 90%;
+    padding-left: 2rem;
+    outline: none;
+    font-size: 1.5rem;
+
+}
+
+.btn{
+    width: 20%;
+    border-radius: 5px;
+    background-color: red;
+    transition: all 0.3s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(202, 7, 7);
+}
+.btn img{
+    width: 3vmax;
+    transition: all 0.5s;
+    filter: invert();
+    
+}
+
+.btn:hover img{
+    transform: translateX(5px);
+    
+}
+
+.header h1{
+    color: white;
+    padding: 2vmax;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header img{
+    width: 1.5vmax;
+    height: 1.5vmax;
+   padding: 1vmax;
+   transition: all .5s;
+   margin: 1.5vmax;
+   cursor: pointer;
+   }
+   .header img:hover{
+    transform: scale(1.3);
+   }
